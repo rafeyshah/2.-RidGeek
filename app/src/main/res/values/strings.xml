@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="appTitle">RidGeek</string>
+    <string name="card_title">Are you Genius?</string>
+    <string name="card_desc">BuckUp Chap! Here comes the challenge</string>
+</resources>
