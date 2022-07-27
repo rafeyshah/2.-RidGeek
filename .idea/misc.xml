@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Data/Projects/Self Made/Android Studio/Kotlin/2. RidGeek/app/src/main/res/drawable/question_option.xml" value="0.1" />
         <entry key="..\:/Data/Projects/Self Made/Android Studio/Kotlin/2. RidGeek/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data/Projects/Self Made/Android Studio/Kotlin/2. RidGeek/app/src/main/res/layout/activity_question.xml" value="0.33" />
       </map>
     </option>
   </component>
