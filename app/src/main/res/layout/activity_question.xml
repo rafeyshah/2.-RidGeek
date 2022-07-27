@@ -10,6 +10,7 @@
     tools:context=".QuestionActivity">
 
     <TextView
+        android:id="@+id/question_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -27,6 +28,7 @@
         android:orientation="horizontal">
 
         <ProgressBar
+            android:id="@+id/progess_bar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -36,6 +38,7 @@
             android:max="5"
             />
         <TextView
+            android:id="@+id/progess_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1/5"
@@ -47,9 +50,10 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/opt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/question_option"
         android:gravity="center"
         android:padding="10dp"
@@ -57,9 +61,10 @@
         android:textSize="18sp" />
 
     <TextView
+        android:id="@+id/opt2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/question_option"
         android:gravity="center"
         android:padding="10dp"
@@ -67,9 +72,10 @@
         android:textSize="18sp" />
 
     <TextView
+        android:id="@+id/opt3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/question_option"
         android:gravity="center"
         android:padding="10dp"
@@ -77,9 +83,10 @@
         android:textSize="18sp" />
 
     <TextView
+        android:id="@+id/opt4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/question_option"
         android:gravity="center"
         android:padding="10dp"
@@ -87,6 +94,7 @@
         android:textSize="18sp" />
 
     <Button
+        android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"

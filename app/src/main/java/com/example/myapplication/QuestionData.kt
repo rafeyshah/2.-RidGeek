@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+// Compares with data, not object references
 data class QuestionData (
     var id: Int,
     var question: String,
